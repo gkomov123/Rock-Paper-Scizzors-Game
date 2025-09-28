@@ -25,7 +25,7 @@ while True:
 
     # Invalid move case
     if user_move not in winning_moves:
-        print("\nInvalid move - please type 'rock', 'paper', 'scissors'")
+        print("\nInvalid move - please type 'rock', 'paper' or 'scissors'")
         continue
 
     #Win,Draw and Lose Logic
@@ -45,7 +45,8 @@ while True:
     if keep_playing_input in valid_input:
         continue
     else:
-        print("\nFINAL SCORE:"
+        print("\nThank you, for playing my Game <3!"
+            "\nFINAL SCORE:"
             f"\nComputer:{computer_wins}"
             f"\nHuman:{user_wins}"
             f"\nDraws:{draws}")
