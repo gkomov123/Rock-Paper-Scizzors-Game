@@ -7,10 +7,12 @@ winning_moves = {
     "scissors": "paper"
 }
 # Hello prints
-print("------------------------------------------------------------------------------------------"
-      "\nWelcome to my Rock, Paper, Scissors game! "
-"\nIn this simple but fun game you pick rock paper or scissors and face off against the computer!"
-"\n----------------------------------------------------------------------------------------------")
+print("""\
+    ---------------------------------------------------------------------------------------------------------
+                       Welcome to my Rock, Paper, Scissors game! 
+    In this simple but fun game you pick rock paper or scissors and face off against the computer!
+    ---------------------------------------------------------------------------------------------------------
+      """)
 
 # Counters
 user_wins = 0
@@ -45,7 +47,8 @@ while True:
     if keep_playing_input in valid_input:
         continue
     else:
-        print("\nThank you, for playing my Game <3!"
+        print("--------------------------------------------------------------" 
+            "\nThank you, for playing my Game <3!"
             "\nFINAL SCORE:"
             f"\nComputer:{computer_wins}"
             f"\nHuman:{user_wins}"
